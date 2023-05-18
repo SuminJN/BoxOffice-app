@@ -14,11 +14,13 @@ struct DailyBoxOfficeList: Codable {
     let audiAcc: String
 }
 
+let apiKey = Bundle.main.apiKey
+
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var table: UITableView!
     
-    var movieURL = "https://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=0e7f254bab2dfc9322db78fa86cb3001&targetDt="
+    var movieURL = "https://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=\(apiKey)&targetDt="
     var movieData: MovieData?
     
     override func viewDidLoad() {
@@ -63,7 +65,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return movieData?.boxOfficeResult.dailyBoxOfficeList.count ?? 10
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
