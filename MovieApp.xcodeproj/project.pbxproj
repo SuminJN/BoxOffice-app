@@ -13,6 +13,7 @@
 		709A51DE2A14C19C00BD26EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709A51DC2A14C19C00BD26EA /* Main.storyboard */; };
 		709A51E02A14C19D00BD26EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709A51DF2A14C19D00BD26EA /* Assets.xcassets */; };
 		709A51E32A14C19D00BD26EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709A51E12A14C19D00BD26EA /* LaunchScreen.storyboard */; };
+		709A51EB2A14C3F200BD26EA /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A51EA2A14C3F200BD26EA /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		709A51DF2A14C19D00BD26EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		709A51E22A14C19D00BD26EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		709A51E42A14C19D00BD26EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709A51EA2A14C3F200BD26EA /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				709A51D62A14C19C00BD26EA /* AppDelegate.swift */,
 				709A51D82A14C19C00BD26EA /* SceneDelegate.swift */,
 				709A51DA2A14C19C00BD26EA /* ViewController.swift */,
+				709A51EA2A14C3F200BD26EA /* MyTableViewCell.swift */,
 				709A51DC2A14C19C00BD26EA /* Main.storyboard */,
 				709A51DF2A14C19D00BD26EA /* Assets.xcassets */,
 				709A51E12A14C19D00BD26EA /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				709A51DB2A14C19C00BD26EA /* ViewController.swift in Sources */,
+				709A51EB2A14C3F200BD26EA /* MyTableViewCell.swift in Sources */,
 				709A51D72A14C19C00BD26EA /* AppDelegate.swift in Sources */,
 				709A51D92A14C19C00BD26EA /* SceneDelegate.swift in Sources */,
 			);
